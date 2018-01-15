@@ -72,7 +72,7 @@ setup(name='anyjson',
       author_email=meta["contact"],
       url=meta["homepage"],
       license='BSD',
-      long_description=open("README").read(),
+      long_description=open("README.rst").read(),
       install_requires=install_requires,
       classifiers=[
             'Development Status :: 5 - Production/Stable',
